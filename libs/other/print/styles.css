@@ -1,0 +1,60 @@
+@media print
+{
+
+    body{
+        
+        width: 100%;
+    }
+    
+    #titre
+    {
+          position:absolute;
+        top: 129%;
+        left:0%;
+        width:100%;
+    }
+    h5
+    {
+        
+        text-align:center;
+    }
+    
+     #immg
+    {
+        position:absolute;
+        left:68%;
+        top: 5%;
+    }
+  
+    #tableeee{
+        position:absolute;
+        top: 199%;
+        left:0%;
+        
+        width:100%;
+}
+
+table
+{
+    
+        margin: 0 auto;
+width: 90%;
+}
+
+td{
+    
+    font-size:small;
+    
+}
+input
+{
+    display:none;
+    
+}
+#table
+    {
+        border-collapse: collapse;
+        
+    }
+
+}

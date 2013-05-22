@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <img  id="immg" src="images/logo.png" alt="logo" height="202" width="300" >
+        <div id="header">
+        <h4>Pôle Formation et Ingénierie Sociale</h4>
+        <h4>Centre Associatif Solidaire</h4>
+        <h4>Sidi Bouknadel, Route Kenitra</h4>
+        </div>
+       
+    </header>
+    <section>
+        <div id="titre">
+            <h5></h5>
+        </div>
+         <div id="tableeee">
+            
+            
+        </div>
+    </section>
+    <input type="submit" value="Imprimer" onclick="window.print();">
+</body>
+
+</html>
+
+ <script src="/mvc_test/libs/js/jquery.js"  ></script>
+
+<script>
+    
+   
+$("h5").text(window.opener.titl);
+   $("#tableeee").append(window.opener.all);
+   if(window.opener.npn=="animateur"){
+       
+   $(document).ready(function()
+
+{
+  $("#selectrows").remove();
+  $("#plusrow").remove();
+  $("#contratcel").remove();
+  $("#cvcel").remove();
+   $(".doc").remove(); 
+    $(".checkboxx").remove(); 
+    $(".pluss").remove(); 
+    });
+   
+   $("#tableeee").attr("style","@media print{margin:auto;position:absolute;left:4%;top:479%;}");
+  
+   }
+   if(window.opener.npn=="association"){
+       
+  
+  $(document).ready(function()
+
+{
+  $("#selectrows").remove();
+  $("#plusrow").remove();
+
+    $(".checkboxx").remove(); 
+    $(".pluss").remove(); 
+    $("tr").each(function(){
+        
+        $(this).children("td:first").remove();
+        $(this).children("th:first").remove();
+    });
+  
+    $("th").each(function(){$(this).removeAttr("style");});
+    });
+  
+   }
+    if(window.opener.npn=="formation"){
+       
+  
+  $(document).ready(function()
+
+{
+  $("#selectrows").remove();
+  $("#plusrow").remove();
+
+    $(".checkboxx").remove(); 
+    $(".pluss").remove(); 
+ 
+   $("th").each(function(){$(this).removeAttr("style");});
+  
+   });}
+  
+</script>

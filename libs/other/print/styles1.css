@@ -1,0 +1,80 @@
+@media print
+{
+    @page {
+  size: auto;   /* auto is the initial value */
+  margin: 0%;
+}
+td
+{
+    font-size: 65%;
+    
+}
+th
+{
+    font-size: 65%;
+    
+}
+    #immg
+    {
+        
+        position:absolute;
+left:68%;
+top: 5%;
+    }
+    #tableeee{margin:auto;position:absolute;left:5%;top:479%;}
+    input
+    {
+        display: none;
+    }
+    h4{
+        margin-bottom:-19px;
+        
+        
+    }
+   
+    h5{
+        
+        font-size: large;
+            vertical-align:middle;
+
+    }
+      #titre
+    {
+        
+        margin: 0 0 0 0;
+       position:absolute;
+       left:39%;
+       top:293%;        
+           text-align:center;
+
+    }
+    
+    #table
+    {
+        border-collapse: collapse;
+        
+    }
+}
+
+   @page {
+  size: auto;   /* auto is the initial value */
+  margin: 0%;
+}
+    #immg
+    {
+        
+        position:absolute;
+left:68%;
+top: 5%;
+    }
+    
+    h4{
+        
+        margin-bottom:-19px;
+        
+        
+    }
+     
+     
+   
+    

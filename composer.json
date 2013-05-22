@@ -1,0 +1,7 @@
+{
+    "name":"mustache",
+    "require": {
+      "mustache/mustache": "dev-master",
+      "tdt/pages": "dev-master"
+    }
+}
